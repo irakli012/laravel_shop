@@ -119,3 +119,11 @@
     </div>
 </div>
 @endsection
+
+<!-- <?php
+$x = array('plane -> set', 'car', 'moto');
+echo $x[array_rand($x)];
+
+$y = 'dfsdfsfsdgsdfdsfDSFWERWEGEF FSGDFGD , .fgegFfFfffhHHH';
+echo strtolower($y);
+?> -->

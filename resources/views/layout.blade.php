@@ -395,19 +395,7 @@
             }
         }
     </style>
-    <style>
-        body {
-            font-family: 'Nunito', sans-serif;
-        }
-
-        .p-4 {
-            padding: 1rem;
-        }
-
-        nav a {
-            padding: .5rem;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ url('css/site.css')}}">
 </head>
 
 <body class="antialiased">
