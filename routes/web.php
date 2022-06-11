@@ -8,9 +8,9 @@ use App\Http\Controllers\Homecontroller;
 
 
 
-Route::get('/', [Homecontroller::class, 'index']);
-route::get('/about/about', [Homecontroller::class, 'about']);
-route::get('/contact', [Homecontroller::class, 'contact']);
+Route::get('/', [Homecontroller::class, 'index'])->name('home.index');
+route::get('/about/about', [Homecontroller::class, 'about'])->name('home.about');
+route::get('/contact', [Homecontroller::class, 'contact'])->name('home.contact');
 
 
 route::get('/store/{category?}/{item?}', function ($category = null, $item = null) {
