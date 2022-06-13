@@ -9,8 +9,8 @@ class GuitarsController extends Controller
     private static function getData()
     {
         return [
-            // ['id => 1', 'name' => 'explorer', 'brand' => 'gibson'],
-            // ['id => 2', 'name' => 'talman', 'brand' => 'ibanez'],
+            ['id => 1', 'name' => 'explorer', 'brand' => 'gibson'],
+            ['id => 2', 'name' => 'talman', 'brand' => 'ibanez'],
         ];
     }
     /**

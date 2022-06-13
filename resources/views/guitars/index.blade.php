@@ -3,7 +3,7 @@
 @section('content')
 <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
 
-    @if (count(@guitars) > 0)
+    @if (count($guitars) > 0)
 
        @foreach ($guitars as $guitar)
         <div>
